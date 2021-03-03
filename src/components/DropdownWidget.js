@@ -21,7 +21,7 @@ const DropdownWidget = ({ items, label, selected, onSelectedChange, itemType }) 
   return (
     <Box d="flex" flexDirection="column" alignItems="center">
       <Text mb={3}>{label}</Text>
-      <Select placeholder={selected.label} mb={6} value={selected} onChange={handleChange}>
+      <Select placeholder={selected.label} mb={4} value={selected} onChange={handleChange}>
         {renderedOptions}
       </Select>
     </Box>

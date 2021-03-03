@@ -4,7 +4,7 @@ import { WarningIcon } from '@chakra-ui/icons'
 
 const IconBox = ({ item }) => {
   return (
-    <Box d="flex" flexDirection="column" alignItems="center" mt={10} mb={8}>
+    <Box d="flex" flexDirection="column" alignItems="center" mt={6} mb={8}>
       <WarningIcon w={60} h={60} color={item.value}/>
       <Heading color={item.value} mt={2}>{item.label}</Heading>
     </Box>
